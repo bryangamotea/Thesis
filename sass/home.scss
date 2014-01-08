@@ -1,0 +1,65 @@
+@import "vars";
+
+body
+{
+	background:url("../images/background.jpg");	
+}
+
+#header
+{
+	width:100%;
+	background-color:black;
+	position:relative;
+
+}
+
+.navIcon
+{
+	height:60px;
+	width:60px;
+	opacity:0.5;	
+}
+
+#headerContent
+{
+	position:relative;
+	left:550px;
+}
+
+
+.content
+{
+	margin:$gitna;
+	padding-top:50px;
+}
+
+#Logo
+{
+	position:relative;
+	top:-50px;
+	left:340px;
+	padding:40px;
+}
+
+#Welcome
+{
+	@include border-radius(10px);
+	@include single-box-shadow;
+	width:40%;
+	margin:$gitna;
+	background-color:lightgray;
+	text-align: center;
+	font-family: 'Knewave', cursive;
+	font-size: 20px;
+	position:relative;
+	top:-40px;
+}
+
+#footer
+{
+	width:100%;
+	@include clearfix;
+	padding-top: 50px;
+	background-color:black;
+	height:10%;
+}
